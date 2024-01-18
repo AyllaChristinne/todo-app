@@ -1,0 +1,16 @@
+<div class="item-container">
+  <div class="checkbox">
+      <input 
+        type="checkbox"
+        [id]="'checkbox-input-' + item.id"
+        [checked]="item.status === 'completed'" 
+        class="item-checkbox" 
+        (change)="onCheckboxClick(item.id)"
+      />
+      <label [for]="'checkbox-input-' + item.id"></label>
+  </div>
+  <span class="item-text">{{ item.text }}</span>
+  <button class="item-delete" (click)="deleteItem(item.id)"></button>
+</div>
+
+

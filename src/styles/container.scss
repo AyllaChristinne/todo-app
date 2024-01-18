@@ -1,0 +1,24 @@
+.container {
+  padding: $space-xl $space-md;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: var(--color-background-main);
+}
+
+@media screen and (min-width: $tabletSmall) {
+  .container {
+    padding: $space-xxl $space-xl;
+  }
+}
+
+@media screen and (min-width: $desktopSmall) {
+  .container {
+    padding: $space-xxl 0px;
+  }
+}
+
+@media screen and (min-width: $desktop) {
+  .container {
+    padding: $space-xxxl 0px;
+  }
+}

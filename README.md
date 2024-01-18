@@ -1,27 +1,70 @@
-# TodoAngular
+# Frontend Mentor - Todo App solution
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
+This is a solution to the [Todo App Challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW)
 
-## Development server
+## Table of contents
+- [Frontend Mentor - Todo App solution](#frontend-mentor---todo-app-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+  - [Screenshots](#screenshots)
+      - [Desktop](#desktop)
+      - [Mobile](#mobile)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+  - [Author](#author)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Overview
 
-## Code scaffolding
+### The challenge
+Users should be able to:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Add new todos to the list
+- Mark todos as complete
+- Delete todos from the list
+- Filter by all/active/complete todos
+- Clear all completed todos
+- Toggle light and dark mode
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Drag and drop to reorder items on the list
 
-## Build
+## Screenshots
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+#### Desktop
 
-## Running unit tests
+![desktop-dark.png](https://i.postimg.cc/fW24dfK3/desktop-dark.png)
+![desktop-light.png](https://i.postimg.cc/K8TCdSyL/desktop-light.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### Mobile
 
-## Running end-to-end tests
+<table>
+  <tr style="border: none">
+    <td style="border: none">
+      <img src="https://i.postimg.cc/J4v967SM/mobile-dark.png" />
+    </td>
+    <td style="border: none">
+      <img src="https://i.postimg.cc/Dy89P4jx/mobile-light.png" />
+    <td>
+  </tr>
+</table>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## My process
 
-## Further help
+### Built with
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- [Angular 17.0.3](https://github.com/angular/angular-cli)
+- [Angular CDK](https://www.npmjs.com/package/@angular/cdk)
+- [SASS](https://sass-lang.com)
+- [UUID](https://www.npmjs.com/package/uuid)
+- Mobile-first workflow
+  
+### What I learned
+With this project, I was able to reinforce concepts of Angular and its environment. Furthermore, for the first time I used Angular CDK, and got to know and use the UUID package.
+
+## Author
+
+- [Github](https://github.com/AyllaChristinne)
+- [LinkedIn](https://www.linkedin.com/in/aylla-christinne-766892173/)
+- [Frontend Mentor](https://www.frontendmentor.io/profile/AyllaChristinne)

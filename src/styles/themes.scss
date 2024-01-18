@@ -1,0 +1,32 @@
+:root {
+  --color-active: hsl(220, 98%, 61%);
+  --color-white: hsl(0, 0%, 100%);
+  --check-background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+  --icon-cross: url("../assets/icon-cross.svg");
+}
+
+[data-theme="light"] {
+  --color-background-main: hsl(236, 33%, 92%);
+  --color-background-input: hsl(0, 0%, 98%);
+  --color-border: hsl(233, 11%, 84%);
+  --color-text-primary: hsl(235, 19%, 35%);
+  --color-text-secondary: hsl(236, 9%, 61%);
+  --color-error: hsl(347, 65%, 62%);
+
+  --icon-theme-switch: url("../assets/icon-moon.svg");
+  --bg-image-mobile: url("../assets/bg-mobile-light.jpg");
+  --bg-image-desktop: url("../assets/bg-desktop-light.jpg");
+}
+
+[data-theme="dark"] {
+  --color-background-main: hsl(235, 21%, 11%);
+  --color-background-input: hsl(235, 24%, 19%);
+  --color-text-secondary: hsl(234, 11%, 52%);
+  --color-text-primary: hsl(234, 39%, 85%);
+  --color-border: hsl(233, 14%, 35%);
+  --color-error: hsl(358, 97%, 20%);
+
+  --icon-theme-switch: url("../assets/icon-sun.svg");
+  --bg-image-mobile: url("../assets/bg-mobile-dark.jpg");
+  --bg-image-desktop: url("../assets/bg-desktop-dark.jpg");
+}

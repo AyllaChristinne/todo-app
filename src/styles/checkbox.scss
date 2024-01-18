@@ -1,0 +1,66 @@
+@import "../styles/variables.scss";
+
+.checkbox {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin-right: $space-xxs;
+}
+
+.checkbox input {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.checkbox label {
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.checkbox label::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--color-border);
+  border-radius: $border-half;
+  box-sizing: border-box;
+}
+
+.checkbox label:hover::before {
+  border: double 1px transparent;
+  background-image: linear-gradient(
+      var(--color-background-input),
+      var(--color-background-input)
+    ),
+    var(--check-background);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.checkbox input:checked + label::before {
+  background: url("../assets/icon-check.svg") center center no-repeat,
+    linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+  background-size: 11px, 20px, auto;
+  background-clip: border-box;
+  border: none;
+}
+
+@media screen and (min-width: $desktopSmall) {
+  .checkbox,
+  .checkbox label {
+    width: 24px;
+    height: 24px;
+  }
+
+  .checkbox {
+    margin-right: $space-sm;
+  }
+}
