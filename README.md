@@ -46,7 +46,7 @@ Users should be able to:
     </td>
     <td style="border: none">
       <img src="https://i.postimg.cc/Dy89P4jx/mobile-light.png" />
-    <td>
+    </td>
   </tr>
 </table>
 
